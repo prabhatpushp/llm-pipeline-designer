@@ -27,7 +27,7 @@ LLM Pipeline Designer is a web application designed to facilitate the creation a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <YOUR_GIT_URL>
+   git clone https://github.com/prabhatpushp/llm-pipeline-designer
    cd llm-pipeline-designer
    ```
 2. Install the required dependencies:
