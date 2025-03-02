@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LLM Pipeline Designer
 
-## Getting Started
+## Introduction
+LLM Pipeline Designer is a web application designed to facilitate the creation and management of pipelines for large language models (LLMs). It provides an intuitive interface for users to design, test, and deploy LLM workflows.
 
-First, run the development server:
+## Features
+- **Pipeline Creation**: Easily design and configure pipelines for LLMs.
+- **Interactive UI**: Utilizes Radix UI components for a rich user experience.
+- **Form Management**: Efficiently handle forms with `react-hook-form`.
+- **Data Validation**: Ensure data integrity with `zod` for schema validation.
+- **Responsive Design**: Built with Tailwind CSS for a modern and responsive layout.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Next.js**: A React framework for building server-side rendered applications.
+- **React**: For building user interfaces.
+- **Radix UI**: A library of accessible UI components.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **TypeScript**: For type safety and better development experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+1. Run the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd llm-pipeline-designer
+   ```
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development
+To contribute to the project, follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes and create a pull request.
 
-## Learn More
+## Future Ideas
+- Implement additional features for pipeline customization.
+- Enhance the user interface for better usability.
+- Add support for more LLMs and integrations.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
+Contributions are welcome! Please follow the development guidelines above.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+This project is licensed under the MIT License. Feel free to use this project for personal or commercial purposes. 
